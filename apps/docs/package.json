@@ -1,7 +1,8 @@
 {
   "name": "docs",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev --port 3001",
     "build": "next build",
@@ -10,6 +11,8 @@
   },
   "dependencies": {
     "next": "^13.4.19",
+    "nextra": "^2.13.2",
+    "nextra-theme-docs": "^2.13.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "ui": "*"

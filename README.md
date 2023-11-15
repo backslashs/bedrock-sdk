@@ -1,81 +1,90 @@
-# Turborepo starter
+#<br/>
 
-This is an official starter Turborepo.
+<p align="center">
+  <a href="https://github.com/backslashs/bedrock">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-## Using this example
+  <h3 align="center">Bedrock SDK</h3>
 
-Run the following command:
+  <p align="center">
+    Create, manage and scale real dapps effortlessly.
+    <br/>
+    <br/>
+    <a href="https://github.com/backslashs/bedrock"><strong>Explore the docs »</strong></a>
+    <br/>
+    <br/>
+    <a href="https://github.com/backslashs/bedrock">View Demo</a>
+    .
+    <a href="https://github.com/backslashs/bedrock/issues">Report Bug</a>
+    .
+    <a href="https://github.com/backslashs/bedrock/issues">Request Feature</a>
+  </p>
+</p>
 
-```sh
-npx create-turbo@latest
-```
+![Downloads](https://img.shields.io/github/downloads/backslashs/bedrock/total) ![Contributors](https://img.shields.io/github/contributors/backslashs/bedrock?color=dark-green) ![Issues](https://img.shields.io/github/issues/backslashs/bedrock) ![License](https://img.shields.io/github/license/backslashs/bedrock)
 
-## What's inside?
+## Table Of Contents
 
-This Turborepo includes the following packages/apps:
+- [About the Project](#about-the-project)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Authors](#authors)
+- [Acknowledgements](#acknowledgements)
 
-### Apps and Packages
+## About The Project
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
+![Screen Shot](images/screenshot.png)
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
 
-### Utilities
+Here's why:
 
-This Turborepo has some additional tools already setup for you:
+- Your time should be focused on creating something amazing. A project that solves a problem and helps others
+- You shouldn't be doing the same tasks over and over like creating a README from scratch
+- You should element DRY principles to the rest of your life :smile:
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
 
-### Build
+A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
-To build all apps and packages, run the following command:
+## Roadmap
 
-```
-cd my-turborepo
-pnpm build
-```
+See the [open issues](https://github.com/backslashs/bedrock/issues) for a list of proposed features (and known issues).
 
-### Develop
+## Contributing
 
-To develop all apps and packages, run the following command:
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-```
-cd my-turborepo
-pnpm dev
-```
+- If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/backslashs/bedrock/issues/new) to discuss it, or directly create a pull request after you edit the _README.md_ file with necessary changes.
+- Please make sure you check your spelling and grammar.
+- Create individual PR for each suggestion.
+- Please also read through the [Code Of Conduct](https://github.com/backslashs/bedrock/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
-### Remote Caching
+### Creating A Pull Request
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
+## License
 
-```
-cd my-turborepo
-npx turbo login
-```
+Distributed under the MIT License. See [LICENSE](https://github.com/backslashs/bedrock/blob/main/LICENSE.md) for more information.
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+## Authors
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+- **TheBackSlashs** - _Young fullstack developer_ - [TheBackSlashs](https://github.com/backslashs) - _Project founder_
 
-```
-npx turbo link
-```
+## Acknowledgements
 
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+- []()
+- []()
+- []()
+- []()

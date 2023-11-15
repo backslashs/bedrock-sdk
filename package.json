@@ -1,19 +1,24 @@
 {
+  "name": "bedrock",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.3",
+    "turbo": "latest"
+  },
+  "packageManager": "bun@1.0.11",
   "private": true,
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev",
+    "dev": "dotenv -- turbo run dev",
+    "test": "turbo run test",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "set-change": "changeset",
+    "set-version": "changeset version",
+    "publish-packages": "turbo run build lint test && changeset version && changeset publish"
   },
-  "devDependencies": {
-    "eslint": "^8.48.0",
-    "prettier": "^3.0.3",
-    "tsconfig": "*",
-    "turbo": "latest"
-  },
-  "name": "bedrock",
-  "packageManager": "bun@1.0.11",
   "workspaces": [
     "apps/*",
     "packages/*"
