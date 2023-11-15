@@ -1,0 +1,24 @@
+{
+  "name": "@bedrocksdk/client",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --minify --format cjs,esm --dts",
+    "invoke": "bun src/index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "tsup": "^7.2.0",
+    "tsconfig": "*",
+    "typescript": "^5.2.2"
+  }
+}

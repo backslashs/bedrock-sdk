@@ -1,0 +1,29 @@
+{
+  "name": "@bedrocksdk/cli",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "bin": {
+    "bedrock": "dist/index.mjs"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --minify --format cjs,esm",
+    "invoke": "bun src/index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "cosmiconfig": "^8.3.6",
+    "inquirer": "^9.2.12",
+    "tsup": "^7.2.0",
+    "tsconfig": "*",
+    "typescript": "^5.2.2"
+  }
+}
