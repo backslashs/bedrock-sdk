@@ -40,7 +40,7 @@ The bedrock SDK therefore allows complex concepts to be abstracted into an API t
 Here's how it's work:
 - As if it were your backend, you create a separate repo for your frontend : this is where you define the operating modes, the features used, the smart contracts, blockchain, etc. Using the bedrock CLI, put in production and manage your decentralised infrastructure.
 - For your frontend, like supabase, import our SDK and interact with your backend.
-- 
+ 
 *Note that the use of the word backend defines all the decentralised networks involved in the smooth running of your application.*
 
 For more further, please refer to the [project documentation](https://bedrocksdk.vercel.app/).
