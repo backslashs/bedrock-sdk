@@ -31,6 +31,8 @@
 - [Authors](#authors)
 
 ## About The Project
+A **simple**, **powerful** and **flexible** backend framework with everything you love from web3.
+
 The bedrock project aims to simplify the creation, implementation and management of decentralised technology through a single, modern entity. Our aim is to standardise what already works well individually into something new and easier to use, a bit like the Supabase project. 
 We are convinced that the work of standardising constantly evolving protocols can save a development team a great deal of work.
 The bedrock SDK therefore allows complex concepts to be abstracted into an API that is easy to use and implement in new or existing projects.

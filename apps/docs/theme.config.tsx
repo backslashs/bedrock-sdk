@@ -1,25 +1,28 @@
 import React from "react";
-import { DocsThemeConfig } from "nextra-theme-docs";
+import type { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
   logo: (
-    <span style={{ display: "flex", alignItems: "center" }}>
-      <p style={{ fontWeight: "bold" }}>BedRock</p>
-      <p style={{ fontWeight: "normal", marginLeft: "10px" }}>
-        Framwork of DApp
-      </p>
+    <span style={{ display: 'flex', alignItems: 'center', fontFamily: 'system-ui' }}>
+      <img style={{ width: 42 }} alt='logo' src='/logo.png' />
+      <p style={{ fontWeight: "bold", marginLeft: 12 }}>BedrockSDK</p>
     </span>
   ),
   project: {
-    link: "https://github.com/backslashs/bedrock",
+    link: 'https://github.com/backslashs/bedrock-sdk',
   },
   chat: {
-    link: "https://discord.com",
+    link: 'https://discord.com',
   },
-  docsRepositoryBase: "https://github.com/backslashs/bedrock/apps/docs",
+  docsRepositoryBase: 'https://github.com/backslashs/bedrock-sdk/tree/main/apps/docs',
   darkMode: true,
-  footer: {
-    text: "BedRock Docs",
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s - Bedrock',
+      openGraph: {
+        siteName: 'Bedrock SDK - Documentation'
+      }
+    }
   },
 };
 
