@@ -66,7 +66,7 @@ Please also read through the [Code Of Conduct](https://github.com/backslashs/bed
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/backslashs/bedrock-sdk/blob/main/LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/backslashs/bedrock-sdk/blob/main/LICENSE) for more information.
 
 ## Authors
 
