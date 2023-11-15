@@ -1,7 +1,7 @@
 #<br/>
 
 <p align="center">
-  <a href="https://github.com/backslashs/bedrock">
+  <a href="https://github.com/backslashs/bedrock-sdk">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -11,60 +11,48 @@
     Create, manage and scale real dapps effortlessly.
     <br/>
     <br/>
-    <a href="https://github.com/backslashs/bedrock"><strong>Explore the docs »</strong></a>
+    <a href="https://bedrocksdk.vercel.app/"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/backslashs/bedrock">View Demo</a>
+    <a href="https://github.com/backslashs/bedrock-sdk/issues/new">Report Bug</a>
     .
-    <a href="https://github.com/backslashs/bedrock/issues">Report Bug</a>
-    .
-    <a href="https://github.com/backslashs/bedrock/issues">Request Feature</a>
+    <a href="https://github.com/backslashs/bedrock-sdk/issues/new">Request Feature</a>
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/backslashs/bedrock/total) ![Contributors](https://img.shields.io/github/contributors/backslashs/bedrock?color=dark-green) ![Issues](https://img.shields.io/github/issues/backslashs/bedrock) ![License](https://img.shields.io/github/license/backslashs/bedrock)
+![Downloads](https://img.shields.io/github/downloads/backslashs/bedrock-sdk/total) ![Contributors](https://img.shields.io/github/contributors/backslashs/bedrock-sdk?color=dark-green) ![Issues](https://img.shields.io/github/issues/backslashs/bedrock-sdk) ![License](https://img.shields.io/github/license/backslashs/bedrock-sdk)
 
 ## Table Of Contents
 
 - [About the Project](#about-the-project)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
 - [Authors](#authors)
-- [Acknowledgements](#acknowledgements)
 
 ## About The Project
+The bedrock project aims to simplify the creation, implementation and management of decentralised technology through a single, modern entity. Our aim is to standardise what already works well individually into something new and easier to use, a bit like the Supabase project. 
+We are convinced that the work of standardising constantly evolving protocols can save a development team a great deal of work.
+The bedrock SDK therefore allows complex concepts to be abstracted into an API that is easy to use and implement in new or existing projects.
 
-![Screen Shot](images/screenshot.png)
+Here's how it's work:
+- As if it were your backend, you create a separate repo for your frontend : this is where you define the operating modes, the features used, the smart contracts, blockchain, etc. Using the bedrock CLI, put in production and manage your decentralised infrastructure.
+- For your frontend, like supabase, import our SDK and interact with your backend.
+- 
+*Note that the use of the word backend defines all the decentralised networks involved in the smooth running of your application.*
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
-
-Here's why:
-
-- Your time should be focused on creating something amazing. A project that solves a problem and helps others
-- You shouldn't be doing the same tasks over and over like creating a README from scratch
-- You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+For more further, please refer to the [project documentation](https://bedrocksdk.vercel.app/).
 
 ## Roadmap
 
-See the [open issues](https://github.com/backslashs/bedrock/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/backslashs/bedrock-sdk/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. As the project is in its very early stages, there is no contribution guide available at the moment.
+If you would still like to contribute, your help would be **greatly appreciated**.
 
-- If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/backslashs/bedrock/issues/new) to discuss it, or directly create a pull request after you edit the _README.md_ file with necessary changes.
-- Please make sure you check your spelling and grammar.
-- Create individual PR for each suggestion.
-- Please also read through the [Code Of Conduct](https://github.com/backslashs/bedrock/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
+Please also read through the [Code Of Conduct](https://github.com/backslashs/bedrock-sdk/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
 ### Creating A Pull Request
 
@@ -76,15 +64,9 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/backslashs/bedrock/blob/main/LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/backslashs/bedrock-sdk/blob/main/LICENSE.md) for more information.
 
 ## Authors
 
 - **TheBackSlashs** - _Young fullstack developer_ - [TheBackSlashs](https://github.com/backslashs) - _Project founder_
 
-## Acknowledgements
-
-- []()
-- []()
-- []()
-- []()
